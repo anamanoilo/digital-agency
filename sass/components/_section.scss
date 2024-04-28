@@ -1,0 +1,11 @@
+.section-content{
+  &__subtitle{
+    color: var(--main-color);
+  }
+  &__title{
+    font-family: 'Raleway', sans-serif;
+  }
+  &__description{
+    color: var(--text-on-dark-color);
+  }
+}

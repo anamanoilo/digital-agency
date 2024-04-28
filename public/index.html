@@ -1,15 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digital agency</title>
-</head>
-<body>
-  <header class="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital agency</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <button class="popup-menu">
+        <img src="./images/header/burger-menu.svg" alt="Navigation" />
+      </button>
+      <a href="#" class="logo">
+        <img src="./images/header/logo.svg" alt="Digens" />
+      </a>
+      <!-- <div class=""> -->
+        <a class="phone" href="tel:+15471258965">
+          <img src="./images/header/smartphone.svg" alt="Phone icon" />
+          <span>+1 547 125 89 65</span>
+        </a>
+      
+      <button type="button" class="button button--secondary">
+        Get a quote
+      </button>
+      <!-- </div> -->
+    </header>
+    <main>
+      <section class="hero">
+        <div class="section-content">
+          <h3 class="section-content__subtitle">more than obvious</h3>
+          <h2 class="section-content__title">Digital Products For Your Brand</h2>
+          <p class="section-content__description">
+            Our team is waiting for a new challenge, so we’re ready to make a
+            cool brand.
+          </p>
 
-  </header>
-  <main></main>
-  <footer></footer>
-</body>
+          <a href="" class="button button--primary">Get more</a>
+          </div>
+          <div class="slider__buttons">
+            <button class="button-arrow button-arrow--next"></button>
+            <button class="button-arrow button-arrow--prev"></button>
+          </div>
+        
+      </section>
+      <section class="services">
+        <div class="section__content">
+          <h3 class="section-content__subtitle">our services</h3>
+          <h2 class="section-content__title">we develop digital products</h2>
+          <p class="section-content__description">
+            You can discover all our services by clicking the link below.
+          </p>
+          <a href="./services.html"><span>view all</span></a>
+        </div>
+        <ul class="services__list">
+          <li>
+            <img src="./images/services/web-development-icon.svg" alt="Web Development" />
+            <h5>Web Development</h5>
+            <p>
+              Our developers are carefully considering how your product should
+              work while mainta...
+            </p>
+          </li>
+          <li>
+            <img src="./images/services/seo-icon.svg" alt="SEO optimization" />
+            <h5>SEO optimization</h5>
+            <p>
+              Promotion of your product is an important step in making money and
+              constant popula...
+            </p>
+          </li>
+          <li>
+            <img src="./images/services/design-icon.svg" alt="Ui/UX Design" />
+            <h5>Ui/UX Design</h5>
+            <p>
+              Everything starts with the beautiful. And professional design is
+              of great importa...
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="portfolio">
+        <h3>portfolio</h3>
+        <h2>check our latest cases</h2>
+        <a href="./portfolio.html"><span>view all</span></a>
+        <ul class="portfolio__list">
+          <li class="portfolio__item">
+            <a class="portfolio__link" href=""> </a>
+          </li>
+        </ul>
+        <div><span>cases</span></div>
+      </section>
+      <section class="subscription">
+        <h2 class="section-content__title">Always Be in touch</h2>
+        <p class="section-content__description">
+          Subscribe if you want always to be known about all the news and
+          available propositions.
+        </p>
+        <form>
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+            />
+            <button type="submit">Subscribe</button>
+          </div>
+          <div class="form__field">
+            <input
+              type="checkbox"
+              class="checkbox visually-hidden"
+              name="policy"
+              id="policy"
+            />
+            <label for="policy" class="form__policy">
+              <!-- <span class="form__policy-check">
+                            <svg class="form__policy-icon" width="16" height="15">
+                                <use
+                                    href="./images/icons.svg#icon-check-box1"
+                                ></use>
+                            </svg>
+                        </span> -->
+              <span
+                >I accept all &nbsp;<a href="#">Terms and Conditions</a></span
+              ></label
+            >
+          </div>
+        </form>
+      </section>
+      <section class="benefits">
+        <h3 class="section-content__subtitle">what we do</h3>
+        <h2 class="section-content__title">we develop digital products</h2>
+        <p class="section-content__description">
+          We appreciate every client and ready to help with all the issues that
+          they have. Let’s figure out what we can do.
+        </p>
+        <div>
+          <ul>
+            <li>
+              <p>Branding</p>
+              <p>This is a repetition in plastic forms, lines and colors of</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>

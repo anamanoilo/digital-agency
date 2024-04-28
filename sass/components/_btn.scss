@@ -1,0 +1,25 @@
+.button {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: var(--light-bg-color);
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 600;
+  &--primary{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: var(--gradient-button);
+  }
+  &--secondary{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--bg-color);
+    border: 2px solid var(--light-semi-transparent-color);
+  }
+
+}
+
+.popup-menu{
+  height: 1rem;
+  background-color: inherit;
+}
