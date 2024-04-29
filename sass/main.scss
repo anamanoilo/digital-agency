@@ -2,10 +2,13 @@
 @import './base/common';
 @import './base/reset';
 
+@import './utils/fonts';
+@import './utils/mixin';
+@import './utils/variables';
+
 @import './components/btn';
 @import './components/section';
 
 @import './layout/header';
+@import './layout/hero';
 
-@import './utils/variables';
-@import './utils/fonts';

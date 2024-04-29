@@ -1,9 +1,38 @@
 .header {
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  max-width: 1920px;
   display: flex;
   align-items: center;
+  padding: 2.625em 0 0.25em;
+  z-index: 2;
+  &__menu{
+    margin-right: 6.25em;
+  }
+  &__logo {
+    flex-grow: 1;
+  }
+
 }
 
-.phone{
+.contacts {
   display: flex;
-  align-items: center;
+  gap: 3.125em;
+  &__tel {
+    display: flex;
+    align-items: center;
+    &:hover, &:focus {
+      color: var(--light-semi-transparent-color);
+      transition: color var(--timing-function) var(--transition-duration);
+    }
+  }
+  &__icon {
+    margin-right: 1em;
+  }
+}
+
+.menu__button {
+  height: 1em;
+  background-color: inherit;
 }
